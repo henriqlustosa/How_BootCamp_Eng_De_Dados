@@ -1,12 +1,12 @@
 #%%
-from os import WCONTINUED, link, sep
+import os
 from typing import AsyncIterable
 import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
 # %%
-url = 'https://www.vivareal.com.br/venda/parana/curitiba/apartamento_residencial/?pagina={}'
+url = 'https://www.vivareal.com.br/venda/sp/mogi-das-cruzes/apartamento_residencial/?pagina={}'
 
 # %%
 
